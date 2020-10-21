@@ -1,0 +1,223 @@
+table{
+  border-collapse: collapse;
+}
+.tipografia:{
+display: inline-flex;
+}
+
+/*table gráfica pie -efectivo, MiPOT */
+
+
+
+
+/*puntos gráfica pie */
+.dot {
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  display: inline-block;
+
+
+}
+
+.label-top{
+  font-weight: 900;
+  font-Size:18px;
+  transform: translateY(10px);
+}
+
+.label-bottom{
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 600px){
+.label-bottom{
+  font-size: 8px;
+}
+.label-top{
+  font-weight: 900;
+  font-Size:9px;
+
+}
+.dot {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+ul li:before { /* the custom styled bullets */
+  height:6px;
+  width: 6px;
+}
+
+}
+
+.cantidad{
+    transform: translateY(5px);
+}
+
+.tr1{
+  transform:translate(-15px, 25px);
+
+}
+
+
+/*dashboard - primera tarjeta  */
+.depositContext{
+  line-height:130px;
+  text-align:center;
+  font-weight:bold;
+  height: 130px;
+
+}
+
+.depositContext p{
+line-height: 1;
+display: inline-block;
+vertical-align: middle;
+font-size: 30px;
+}
+.marca{
+
+  display: inline-block;
+  position: absolute;
+  top:10;
+}
+
+/*Genero - ul */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+ul li {
+
+  margin-bottom: 3px;
+  margin-left: 14%;
+}
+
+ul li:before { /* the custom styled bullets */
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  margin-right: 12px;
+
+  height:8px;
+  width: 8px;
+}
+
+.mañana:before{
+    background-color: #FFBB28;
+}
+
+.madrugada:before{
+    background-color: #4caf50;
+}
+.tarde:before{
+    background-color: #0088FE;
+
+}
+.noche:before{
+    background-color: #f48fb1;
+}
+
+.mañana{
+    font-size:11px;
+    text-align:left;
+    font-weight: normal;
+
+}
+
+.madrugada {
+    font-size:11px;
+    font-weight: normal;
+    text-align:left;
+}
+.tarde {
+    font-size:11px;
+    font-weight: normal;
+    text-align:left;
+}
+.noche {
+    font-size:11px;
+    font-weight: normal;
+    text-align:left;
+
+}
+
+@media only screen and (max-width: 1280px){
+  .mañana{
+      font-size:9px;
+  }
+
+  .madrugada{
+      font-size:9px;
+  }
+  .tarde{
+      font-size:9px;
+  }
+  .noche{
+      font-size:9px;
+
+  }
+}
+/*---------------------Sin datos --------------------------------------*/
+.mañanaSD:before{
+    background-color: #C1C1C1;
+}
+
+.madrugadaSD:before{
+    background-color: #C1C1C1;
+}
+.tardeSD:before{
+    background-color: #C1C1C1;
+
+}
+.nocheSD:before{
+    background-color: #C1C1C1;
+}
+
+.mañanaSD{
+    font-size:11px;
+    text-align:left;
+    font-weight: normal;
+
+}
+
+.madrugadaSD {
+    font-size:11px;
+    font-weight: normal;
+    text-align:left;
+}
+.tardeSD {
+    font-size:11px;
+    font-weight: normal;
+    text-align:left;
+}
+.nocheSD {
+    font-size:11px;
+    font-weight: normal;
+    text-align:left;
+
+}
+
+@media only screen and (max-width: 1280px){
+  .mañanaSD{
+      font-size:9px;
+  }
+
+  .madrugadaSD{
+      font-size:9px;
+  }
+  .tardeSD{
+      font-size:9px;
+  }
+  .nocheSD{
+      font-size:9px;
+
+  }
+}
